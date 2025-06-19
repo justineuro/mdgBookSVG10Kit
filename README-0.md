@@ -15,7 +15,7 @@ This folder contains materials that allow the user to author a book containing a
 
 
 
-A [samples](./samples) folder contains work samples in `ogg`, `abc`, and `svg` format. 
+A [samples](./samples) folder contains work samples in `abc`,`mid`, `ogg`, and `svg` formats. 
 
 - [sample20-ed.html](./samples/sample20-ed.html) - an XHTML file that contains an animated images of the musical pieces.  When online, clicking on an image displayed on this XHTML file will play the sample (the audio may not be as good as an `ogg` or `midi` version when played on a good music player.)
 

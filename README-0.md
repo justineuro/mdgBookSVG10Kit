@@ -20,7 +20,7 @@ A [samples](./samples) folder contains work samples in `abc`,`mid`, `ogg`, and `
 - [samples20-ed.html](https://justineuro.github.io/mdgBookSVG10Kit/samples/samples20-ed.html) - an XHTML file that contains animated images of 20 musical pieces.  When online, clicking on an image displayed on this XHTML file will play the sample (the audio may not be as good as an `ogg` or `midi` version when played on a good music player.)
 
 
-The default front cover of the collection book is most likely:  
+The default front cover of the collection book will be most likely:  
 [![Front Cover](./mdgBookSVG10vbeta-tit.png)]
 
 

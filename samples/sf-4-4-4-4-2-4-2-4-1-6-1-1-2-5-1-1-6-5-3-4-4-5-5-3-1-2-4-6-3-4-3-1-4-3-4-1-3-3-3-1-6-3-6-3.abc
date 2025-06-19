@@ -1,0 +1,70 @@
+%%scale 0.50
+%%pagewidth 21.10cm
+%%bgcolor white
+%%topspace 0
+%%composerspace 0
+%%leftmargin 0.80cm
+%%rightmargin 0.80cm
+%%barsperstaff	0 % number of measures per staff
+%%equalbars false
+%%measurebox false % measure numbers in a box
+%%measurenb	0
+%
+X:8409042084951321955960237872928762 
+T:4-4-4-4-2-4-2-4-1-6-1-1-2-5-1-1-6-5-3-4-4-5-5-3-1-2-4-6-3-4-3-1-4-3-4-1-3-3-3-1-6-3-6-3
+%%setfont-1 Courier-Bold 12
+T:$1sf::123:134:133:237:21:236:261:130:12:275:270:2:$0
+T:$1:153:83:168:79:77:88:92:146:::185:207:183:198:217:205:201:212:$0
+T:$1:115:122:119:102:141:120:117:100:::49:53:56:246:242:43:38:50:$0
+T:$1Perm. No.: 8409042084951321955960237872928762 $0
+M:2/4
+L:1/8
+Q:1/8=90
+V:1 clef=treble sname=Flute
+V:2 clef=treble sname=Violin 
+V:3 clef=alto1 sname=Clavier 
+V:4 clef=bass 
+V:5 clef=bass sname=Cello
+%%staves [ 1 2 {3 4} 5]
+K:G
+%
+%%MIDI program 1 73       % Instrument 74 Flute
+%%MIDI program 2 40       % Instrument 41 Violin
+%%MIDI program 3 06       % Instrument 07 Harpsichord
+%%MIDI program 4 06       % Instrument 07 Harpsichord
+%%MIDI program 5 42       % Instrument 43 Cello
+%%staffnonote 0
+%
+% Part I (12 bars)
+%
+[V:1]|:  {c}d3/(3d/4e/4f/4 g/f/e/d/ | {d}cBz/ d/d/{c}B/ | {B}A3/B/4d/4 d/c/e/c/ | (c/4B/4)(e/4d/4)d z/{f}g/g/g/ | {^d}e3/c/ b/g/a/f/ | {f}g(d/4c/4)(c/4B/4) B/{f}g/a/b/ | a3/4d'/4a/a/ a/g/4a/4b/a/ | {A}gg3/4e/4 f/z f/ | {^c}d2 (f/4g/4)(f/4g/4)a/f/ | e/^c/4d/4e/e/ d/z A/ | {^A}Be/4(f/4g/4)e/4 {e}dc | {^c}df3/4a/4 f z :|
+[V:2]|:  {A}B3/(3B/4c/4A/4 B/d/c/B/ | {B}AGz/ {A}B/B/G/ | {G}F3/G/4B/4 B/A/c/A/ | (A/4G/4c/4B/4)Bz/ {A}B/B/B/ | {B}A3/e/ d/B/c/A/ | {A}B(B/4A/4)(A/4G/4) G/B/ F/G/ | {g}f3/4f/4f/f/ f/e/4f/4g/f/ | {f}ee3/4^c/4 {c}d/z A/ | {E}F2 (d/4e/4)(d/4e/4)f/d/ | G/E/4F/4G/G/ F/z F/ | {F}EG/4(A/4B/4)G/4 {G}FE | {E}Fd3/4f/4 d z :|
+[V:3]|: z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 :| 
+[V:4]|: z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 | z4 :| 
+[V:5]|:  z/G,/F,/G,/ G,,G, | D,G,G,,z/ G,/ | D,D,,z F, | G,3/G,/4F,/4 G,G,, | C,C DD, | G,G,,z G, | D,D,,z D, | A,A,, D,/D/4^C/4D/D,/ | D,/E,/4F,/4G,/4A,/4B,/4^C/4 DD, | A,3/A,/ (6DA,G,F,E,D, | G,G,A,A,, | D,3/4D/4A,/F,/ D, z :|
+%
+% Part II (8 + 8 bars)
+%
+[V:1]|: [M:3/4] {^c'}d'2d'b ac' | bg f3/g/4a/4g2 | a3/b/ c'f/e/ dc | (d/c/)(c/B/)B2z2 | {c}B4B2 | {B}A3A{^c}d2 | {^A}B/e/g/e/d2^c2 | {c}d4z2 :|
+|: e2e/f/e/f/ gg | (3gag g3f | e2c'bag | ge d3/e/4f/4e2 | {^g}af/e/ fa!invertedturn!a2 | zg{b}c'g gf/e/ | {b}c'3/g/f2e2 | {e}d4z2 :|
+[V:2]|: [M:3/4] {a}b2bg fa | {f}gB A3/B/4c/4B2 | f3/g/ ad/c/ BA | (B/A/)(A/G/)G2z2 | {A}Bggffe | (3Afe(3ed^c {c}dA | BB/G/F2E2 | {E}F4z2 :|
+|: c2c/d/c/d/ ee | (3efee3d | c2egfe | ec B3/c/4d/4c2 | {e}fA/G/ Af!invertedturn!f2 | zeee ed/c/ | e3/e/d2c2 | {c}B4z2 :|
+[V:3]|: [M:3/4]z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|
+|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :| 
+[V:4]|: [M:3/4]z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|
+|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :| 
+[V:5]|: [M:3/4] G,2D2D,2 | G,3D,G,G,, | D,2D2zF, | G,D,G,2G,,2 | z2G,2G,2 | F,2F,,2F,2 | G,2A,2A,,2 | D,DA,F,D,2 :|
+|: C,3CB,C | C2C,G,A,B, | C2C,2zC, | G,2G,,2C,2 | F,2zF,/E,/F,F,, | C2C,2zC, | C,CB,2C2 | G,2D,B,,G,,2 :|
+%
+% Part III (8 + 8 bars)
+%
+[V:1]|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|
+|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|] 
+[V:2]|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|
+|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|]  
+[V:3]|: [K:F] fcz afc | (3cBA (3GFE {E}F2 | (3FAc (3fed (3cBA | {d}c3BA2 | G/C/E/G/ c/=B/A/G/ c/B/A/G/ | G3f{g}fe | edz {e}fAB | {B}c4z2 :|
+|: [K:Bb] B,D FB ce | d[db][ec'][ca] [db]2 | zgab f/b/d'/b/ | f/e/g/e/ e2d2 | {d}c3f3/ {g}fe/4f/4 | {^f}gB B2A2 | A/G/B/d/ {d}cBAG | {G}F4z2 :|]
+[V:4]|: [K:F] F,2A,2F,2 | G,2B,2A,2 | F,2F,,2zF, | G,2C,2E,2 | C,2C,,2z E, | G,/G,,/=B,,/D,/ G,/D,/B,,/G,,/C,2 | F,2D,2G,2 | C,2G,,2C,2 :|
+|: [K:Bb] D,2B,,2F,2 | B,3F,B,B,, | E,2z2D,2 | C,2F,,2B,,2 | F,2A,2F,2 | =E,2C,2F,2 | B,2C2C,2 | F,2C,A,,F,,2 :|]
+[V:5]|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|
+|: z6 | z6 | z6 | z6 | z6 | z6 | z6 | z6 :|]  

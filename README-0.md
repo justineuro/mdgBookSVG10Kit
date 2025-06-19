@@ -4,13 +4,23 @@
 ## mdgBookSVG10Kit (not yet complete)
 
 **Here's an opportunity for one to "compose" Minuets and Trios and to author a Collection Book of such!!!**  
-![](./sf-music-0.svg)  
-
-**[Audio sample: &nbsp; [ogg](https://justineuro.github.io/mdgBookSVG10Kit/sf-music-0.ogg) &nbsp;&nbsp; [midi](https://justineuro.github.io/mdgBookSVG10Kit/sf-music-0.mid)]**  
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) minuets, generated based on the rules given in [*Musicalische Cabala (ca. 1773)*](https://imslp.org/wiki/Musicalische_Cabala_(Schola%2C_Franciscus)) by Franciscus Schola.  
 
+![](./sf-music-0.svg)  
 
+
+
+**[Audio sample: &nbsp; [ogg](https://justineuro.github.io/mdgBookSVG10Kit/sf-music-0.ogg) &nbsp;&nbsp; [midi](https://justineuro.github.io/mdgBookSVG10Kit/sf-music-0.mid)]**  
+
+
+
+A [samples](./samples) folder contains work samples in `ogg`, `abc`, and `svg` format. 
+
+- [sample20-ed.html](./samples/sample20-ed.html) - an XHTML file that contains an animated images of the musical pieces.  When online, clicking on an image displayed on this XHTML file will play the sample (the audio may not be as good as an `ogg` or `midi` version when played on a good music player.)
+
+
+The default front cover of the collection book is most likely:  
 [![Front Cover](./mdgBookSVG10vbeta-tit.png)]
 
 

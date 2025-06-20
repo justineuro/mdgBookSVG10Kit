@@ -6,16 +6,16 @@
 #	USAGE:	mdg102midRndN+svg.sh <num>
 #
 #		where <num> is the number of random MDG minuets to be generated, e.g., 20.
-#		*** NOTE:  This script has to be in the same directory as mdg82mid+svg.sh. ***
+#		*** NOTE:  This script has to be in the same directory as mdg102mid+svg.sh. ***
 #
 # DESCRIPTION:	Used for generating ABC and MIDI files 
 #		of a particular Musical Dice Game (MDG) minuet based on Ludus Melothedicus
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	0.0.0
+#     VERSION:	0.0.1
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	2025/06/19 06:13:49
-#    REVISION:	
+#    REVISION:	2025/06/20 08:36:50
 #==================================================================================
 
 #----------------------------------------------------------------------------------

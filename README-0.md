@@ -1,27 +1,43 @@
-# SOON TO ARRIVE ... Please keep yourself posted for updates ...
-
-
-## mdgBookSVG10Kit (not yet complete)
+## mdgBookSVG10Kit 
 
 **Here's an opportunity for one to "compose" Minuets and Trios and to author a Collection Book of such!!!**  
 
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) minuets, generated based on the rules given in [*Musicalische Cabala (ca. 1773)*](https://imslp.org/wiki/Musicalische_Cabala_(Schola%2C_Franciscus)) by Franciscus Schola.  
-The default front cover of the collection book most likely will be :  
-![Front Cover](./mdgBookSVG10vbeta-tit.png)  
+The default front cover of the collection book most likely will be:  
 
 Here's an example of a _Musicalische Cabala_ minuet-trio.  
 ![](./sf-music-0.svg)  
 
 
-
 **[Audio sample: &nbsp; [ogg](https://justineuro.github.io/mdgBookSVG10Kit/sf-music-0.ogg) &nbsp;&nbsp; [midi](https://justineuro.github.io/mdgBookSVG10Kit/sf-music-0.mid)]**  
+
+
+## Creating a Collection Book of Minuet Trios
+To create a book, simply [download](https://github.com/justineuro/mdgBookSVG10Kit/archive/main.zip) (or clone: `git clone https://github.com/justineuro/mdgBookSVG10Kit.git`) this project to one's computer, unzip the downloaded archive, and at the command line inside the main folder (`mdgBookSVG10Kit` or `mdgBookSVG10Kit-main` directory) issue the following command (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, `Ghostscript`, `Inkscape`, and `LaTeX`):
+
+```shell
+bash HOWTO
+```
+
+Wait for a **few** minutes, i.e., until one gets the bash prompt again.  The compiled book in PDF format (`mdgBookSVG10v1.pdf`), among other things, should be located in the `res` folder (subdirectory).  
+
+
+## For the Impatient
+To download and examine an example of a book (`mdgBookSVG10v1.pdf`) that was generated in a similar manner, simply right-click (then "Save Link As ...") on the following image:
+
+[![Front Cover v1](./mdgBookSVG10v1-tit.png)](https://justineuro.github.io/mdgBookSVG10Kit/mdgBookSVG10v1.pdf)
+
+(**Note**: To enable the MIDI audio links in the book, one should download [sf-v1-midis.zip](https://justineuro.github.io/mdgBookSVG8Kit/sf-v1-midis.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
 
 ## Additional Samples
 A [samples](./samples) folder contains work samples in `abc`,`mid`, `ogg`, and `svg` formats. 
 
 - [samples20-ed.html](https://justineuro.github.io/mdgBookSVG10Kit/samples/samples20-ed.html) - an XHTML file that contains animated images of 20 musical pieces.  When online, clicking on an image displayed on this XHTML file will play the sample (the audio may not be as good as an `ogg` or `midi` version when played on a good music player.)
+
+  
+
 
 ## Bash scripts for creating minuet-trios
 - [mdg102mid+svg.sh](./mdg102mid+svg.sh) - for creating `abc`, `mid`, and `svg` of a _Musicalische Cabala_ minuet-trio (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, and `Ghostscript`)  

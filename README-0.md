@@ -4,7 +4,6 @@
 
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) minuets, generated based on the rules given in [*Musicalische Cabala (ca. 1773)*](https://imslp.org/wiki/Musicalische_Cabala_(Schola%2C_Franciscus)) by Franciscus Schola.  
-The default front cover of the collection book most likely will be:  
 
 Here's an example of a _Musicalische Cabala_ minuet-trio.  
 ![](./sf-music-0.svg)  

@@ -24,7 +24,7 @@ A [samples](./samples) folder contains work samples in `abc`,`mid`, `ogg`, and `
 - [samples20-ed.html](https://justineuro.github.io/mdgBookSVG10Kit/samples/samples20-ed.html) - an XHTML file that contains animated images of 20 musical pieces.  When online, clicking on an image displayed on this XHTML file will play the sample (the audio may not be as good as an `ogg` or `midi` version when played on a good music player.)
 
 ## Bash scripts for creating minuet-trios
-- [mdg102mid+svg.sh](./mdg102mid+svg.sh) - for creating `abc`, `mid`, and `svg` of a _Musicalische Cabala_ minuet-trio  
+- [mdg102mid+svg.sh](./mdg102mid+svg.sh) - for creating `abc`, `mid`, and `svg` of a _Musicalische Cabala_ minuet-trio (pre-requisites: `bash`, `abcmidi`, `abcm2ps`, `Ghostscript`, `Inkscape`, and `LaTeX`)  
 Usage:
 ```bash
 ./mdg102mid+svg.sh n1 n2 n3 ... n42 n43 n44

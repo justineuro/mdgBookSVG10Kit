@@ -18,7 +18,6 @@ S:
 M:2/4
 L:1/8
 Q:1/8=90
-P:
 V:1 clef=treble sname="Flute"
 V:2 clef=treble sname="Violin" 
 V:3 clef=alto1 sname="Clavier" 

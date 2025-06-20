@@ -9,13 +9,13 @@
 #		*** NOTE:  This script has to be in the same directory as mdg102mid+svg.sh. ***
 #
 # DESCRIPTION:	Used for generating ABC and MIDI files 
-#		of a particular Musical Dice Game (MDG) minuet based on Ludus Melothedicus
+#		of a particular Musical Dice Game (MDG) minuet based on Musicalische Cabala
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	0.0.1
+#     VERSION:	0.0.2
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	2025/06/19 06:13:49
-#    REVISION:	2025/06/20 08:36:50
+#    REVISION:	2025/06/20 10:57:11
 #==================================================================================
 
 #----------------------------------------------------------------------------------

@@ -12,10 +12,10 @@
 #		of a particular Musical Dice Game (MDG) minuet based on Schola Franciscus
 #
 #      AUTHOR:	J.L.A. Uro (justineuro@gmail.com)
-#     VERSION:	0.0.1
+#     VERSION:	0.0.2
 #     LICENSE:	Creative Commons Attribution 4.0 International License (CC-BY)
 #     CREATED:	2025/06/19 13:54:49
-#    REVISION:	
+#    REVISION:	2025/06/21 18:45:24
 #==================================================================================
 
 #----------------------------------------------------------------------------------
@@ -350,28 +350,9 @@ filen="sf-$fileInd.abc"
 # calculate permutation number for the current dice toss (??? from 6^12 * 6^8 * 6^8 * 6^8 * 6^8 possibilities
 # 6^12 * 6^8 * 6^8 ^8 * 6^8 * = 17,324,272,922,341,479,351,919,144,385,642,496)
 # Unique: ??? 
-# (for ludus) part I, measure 4: 2=3; measure 8: 1=5, 2=7
-# (for ludus) part II, measure 8: 1=6, 2=7, 4=9
 #-----------------------------------------------------------------------------------------------------
-### FOR ludus
-### adjust count for bar 4 for rolls beyond 3 (only 8 unique bars)
-##diceS1_3=${diceS1[3]}
-##if [ "${diceS1[3]}" -gt "2" ]; then diceS1_3=${diceS1[3]}-1; fi
-### adjust count for bar 8 for rolls after 5 (only 7 unique bars)
-##diceS1_7=${diceS1[7]}
-##if [ "${diceS1[7]}" = "5" ]; then diceS1_7=1; fi
-##if [ "${diceS1[7]}" = "6" ]; then diceS1_7=5; fi
-##if [ "${diceS1[7]}" = "7" ]; then diceS1_7=2; fi
-##if [ "${diceS1[7]}" = "8" ]; then diceS1_7=6; fi
-##if [ "${diceS1[7]}" = "9" ]; then diceS1_7=7; fi
-### adjust count for bar 16 for rolls after 6 (only 6 unique bars)
-##diceS2_7=${diceS2[7]}
-##if [ "${diceS2[7]}" = "6" ]; then diceS2_7=1; fi
-##if [ "${diceS2[7]}" = "7" ]; then diceS2_7=2; fi
-##if [ "${diceS2[7]}" = "8" ]; then diceS2_7=6; fi
-##if [ "${diceS2[7]}" = "9" ]; then diceS2_7=4; fi
 #dbNum=$(( 1 + (${diceS1[0]}-1) + (${diceS1[1]}-1)*6 + (${diceS1[2]}-1)*6**2 + (${diceS1[3]}-1)*6**3 + (${diceS1[4]}-1)*6**4 + (${diceS1[5]}-1)*6**5 + (${diceS1[6]}-1)*6**6 + (${diceS1[7]}-1)*6**7 + (${diceS1[8]}-1)*6**8 + (${diceS1[9]}-1)*6**9 + (${diceS1[10]}-1)*6**10 + (${diceS1[11]}-1)*6**11 + (${diceS2m[0]}-1)*6**12 + (${diceS2m[1]}-1)*6**13 + (${diceS2m[2]}-1)*6**14 + (${diceS2m[3]}-1)*6**15 + (${diceS2m[4]}-1)*6**16 + (${diceS2m[5]}-1)*6**17 + (${diceS2m[6]}-1)*6**18 + (${diceS2m[7]}-1)*6**19 + (${diceS2t[0]}-1)*6**20 + (${diceS2t[1]}-1)*6**21 + (${diceS2t[2]}-1)*6**22 + (${diceS2t[3]}-1)*6**23 + (${diceS2t[4]}-1)*6**24 + (${diceS2t[5]}-1)*6**25 + (${diceS2t[6]}-1)*6**26 + (${diceS2t[7]}-1)*6**27 + (${diceS3m[0]}-1)*6**28 + (${diceS3m[1]}-1)*6**29 + (${diceS3m[2]}-1)*6**30 + (${diceS3m[3]}-1)*6**31 + (${diceS3m[4]}-1)*6**32 + (${diceS3m[5]}-1)*6**33 + (${diceS3m[6]}-1)*6**34 + (${diceS3m[7]}-1)*6**35 + (${diceS3t[0]}-1)*6**36 + (${diceS3t[1]}-1)*6**37 + (${diceS3t[2]}-1)*6**38 + (${diceS3t[3]}-1)*6**39 + (${diceS3t[4]}-1)*6**40 + (${diceS3t[5]}-1)*6**41 + (${diceS3t[6]}-1)*6**42 + (${diceS3t[7]}-1)*6**43))
-#echo $dbNum
+#echo "Permutation No.: "$dbNum
 
 # export to maxima to compute dbNum
 cat > /tmp/001.mac << EOF
@@ -384,7 +365,7 @@ dbNum=`cat /tmp/001.txt`
 echo "Permutation No.: "$dbNum
 
 #----------------------------------------------------------------------------------
-# determine the sequence of bar numbers to be played for Parts I and II
+# determine the sequence of bar numbers to be played for Parts I, II. and III
 #----------------------------------------------------------------------------------
 measPerm1=""
 measPerm2m=""
@@ -501,7 +482,7 @@ for col in 1 2 3 4 5 6 7; do
 	p3Gkm=${p3Gkm}" "${notesGk[$measN-1]}" |"
 	p3Fkm=${p3Fkm}" "${notesFk[$measN-1]}" |"
 	#for Part III-trio
-	ruletabS3t ${diceS2t[$col-1]}
+	ruletabS3t ${diceS3t[$col-1]}
 	measN=${measNR[$col-1]}
 	p3Gkt=${p3Gkt}" "${notesGk[$measN-1]}" |"
 	p3Fkt=${p3Fkt}" "${notesFk[$measN-1]}" |"
